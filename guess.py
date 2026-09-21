@@ -2,8 +2,8 @@ import random
 n = random.randominit( 0, 10 )
 guess = int(input("guess a number between 0 and 10: ")
 
-guesses 0
-
+guesses = 0
+guesses +=1
 while True   
     if n == guesses:
         print("topdingiz")  
