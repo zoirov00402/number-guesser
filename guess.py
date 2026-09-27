@@ -1,23 +1,19 @@
 import random
-n = random.randominit( 0, 10 )
-guess = int(input("guess a number between 0 and 10: ")
+
+n = random.randint(0, 10)
 
 guesses = 0
 
- fix-bug
-while True   
-    if n == guesses:
-        print("topdingiz")  
+while True:
+    guess = int(input("Guess a number between 0 and 10: "))
+
+    if n == guess:
+        print("Topdingiz!")
         break
-       guesses += 1     
+
+    guesses += 1
+
     if guesses >= 3:
-        print("topolmadingiz afsus")
+        print("Topolmadingiz, afsus!")
+        print(f"To'g'ri javob: {n}")
         break
-
-            
-            
-                
-
-
-
- 
